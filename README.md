@@ -45,3 +45,60 @@ A proposta surgiu da necessidade de aproximar tecnologias de monitoramento ambie
 Inspirado em sistemas de observação terrestre e monitoramento via satélite, o projeto demonstra como informações climáticas podem ser transformadas em ferramentas úteis para conscientização, prevenção e tomada de decisão.
 
 ---
+
+# Tecnologias Utilizadas
+
+## Front-End
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+
+## Ferramentas
+
+- Git
+- GitHub
+- Visual Studio Code
+
+## Conceitos Aplicados
+
+- Responsividade
+- Componentização
+- Organização modular de arquivos
+- Persistência de tema utilizando Local Storage
+- Manipulação do DOM
+- Interface baseada em cards e painéis informativos
+
+---
+
+# Funcionalidades
+
+## Página Inicial
+
+- Apresentação da plataforma
+- Navegação principal
+
+## Monitoramento
+
+- Consulta de alertas por estado
+- Exibição de riscos ambientais
+- Histórico de alertas simulados
+
+## Simulação
+
+- Simulação de cenários climáticos
+- Cálculo de impactos potenciais
+- Recomendações preventivas
+
+## Configurações
+
+- Alteração entre tema claro e escuro
+- Preferência salva automaticamente
+
+## Interface Responsiva
+
+- Mobile
+- Tablet
+- Desktop
+
+---
