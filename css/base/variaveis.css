@@ -1,0 +1,35 @@
+:root{
+    /* Azul Espacial */
+    --azul-principal: #0B3D91;
+    --azul-secundario: #1E5BB8;
+    --azul-claro: #4F8EF7;
+
+    /* Indicadores Climáticos */
+    --verde-seguro: #16A34A;
+    --amarelo-alerta: #F59E0B;
+    --laranja-risco: #F97316;
+    --vermelho-extremo: #DC2626;
+
+    /* Neutros */
+    --branco: #FFFFFF;
+    --cinza-claro: #F8FAFC;
+    --cinza: #64748B;
+    --cinza-escuro: #1E293B;
+
+    /* Tipografia */
+    --fonte-principal: 'Inter', sans-serif;
+    --fonte-titulo: 'Montserrat', sans-serif;
+
+    /* Espaçamentos */
+    --spacing-xs: 8px;
+    --spacing-sm: 16px;
+    --spacing-md: 24px;
+    --spacing-lg: 32px;
+    --spacing-xl: 64px;
+
+    /* Bordas */
+    --border-radius: 16px;
+
+    /* Sombras */
+    --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,29 @@
+/*Reset basico dos navegadores*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Reset das lista*/
+ul, ol{
+    list-style: none;
+}
+
+/*Reset dos links*/
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Reset das imagens*/
+img{
+    display: block;
+    max-width: 100%;
+}
+
+/*Reset dos botões*/
+button {
+    all: unset;
+    cursor: pointer;
+}

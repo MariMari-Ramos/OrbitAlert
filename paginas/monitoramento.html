@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monitoramento</title>
+    <!-- Css e Java Script externos-->
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+    <main class="monitoramento">
+      ```
+      <!-- Título da Página -->
+      <section class="monitoramento-intro">
+        <h1>Centro de Monitoramento Climático</h1>
+        <p>
+          Consulte informações sobre riscos climáticos em cada estado brasileiro
+          e acompanhe alertas ambientais em tempo real.
+        </p>
+      </section>
+
+      <!-- Filtro -->
+      <section class="filtro-estado card">
+        <h2>Selecionar Estado</h2>
+
+        <select id="estado">
+          <option value="AC">Acre</option>
+          <option value="AL">Alagoas</option>
+          <option value="AP">Amapá</option>
+          <option value="AM">Amazonas</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+          <option value="DF">Distrito Federal</option>
+          <option value="ES">Espírito Santo</option>
+          <option value="GO">Goiás</option>
+          <option value="MA">Maranhão</option>
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="PA">Pará</option>
+          <option value="PB">Paraíba</option>
+          <option value="PR">Paraná</option>
+          <option value="PE">Pernambuco</option>
+          <option value="PI">Piauí</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="RN">Rio Grande do Norte</option>
+          <option value="RS">Rio Grande do Sul</option>
+          <option value="RO">Rondônia</option>
+          <option value="RR">Roraima</option>
+          <option value="SC">Santa Catarina</option>
+          <option value="SP" selected>São Paulo</option>
+          <option value="SE">Sergipe</option>
+          <option value="TO">Tocantins</option>
+        </select>
+      </section>
+
+      <!-- Painel Principal -->
+      <section class="painel-monitoramento">
+        <div class="card info-geral">
+          <h2 id="nomeEstado">São Paulo</h2>
+
+          <div class="status alto" id="statusGeral">Risco Alto</div>
+
+          <p>
+            Última atualização:
+            <span id="atualizacao">05/06/2026 - 14:00</span>
+          </p>
+        </div>
+
+        <!-- Indicadores -->
+        <div class="indicadores">
+          <div class="card indicador">
+            <h3>🌧️ Chuvas</h3>
+            <p id="chuva">Alto</p>
+          </div>
+
+          <div class="card indicador">
+            <h3>🔥 Queimadas</h3>
+            <p id="queimadas">Baixo</p>
+          </div>
+
+          <div class="card indicador">
+            <h3>🌵 Seca</h3>
+            <p id="seca">Moderado</p>
+          </div>
+
+          <div class="card indicador">
+            <h3>⚠️ Risco Geral</h3>
+            <p id="risco">Alto</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Alertas -->
+      <section class="historico-alertas card">
+        <h2>Alertas Recentes</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Data</th>
+              <th>Estado</th>
+              <th>Evento</th>
+              <th>Nível</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>05/06/2026</td>
+              <td>SP</td>
+              <td>Chuvas Intensas</td>
+              <td>Alto</td>
+            </tr>
+
+            <tr>
+              <td>04/06/2026</td>
+              <td>RJ</td>
+              <td>Ventos Fortes</td>
+              <td>Moderado</td>
+            </tr>
+
+            <tr>
+              <td>04/06/2026</td>
+              <td>MG</td>
+              <td>Risco de Deslizamento</td>
+              <td>Alto</td>
+            </tr>
+
+            <tr>
+              <td>03/06/2026</td>
+              <td>RS</td>
+              <td>Enchentes</td>
+              <td>Extremo</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      ```
+    </main>
+  </body>
+</html>

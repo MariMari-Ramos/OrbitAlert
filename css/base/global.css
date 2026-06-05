@@ -1,0 +1,86 @@
+/* BODY */
+
+body{
+    background-color: var(--cinza-claro);
+    color: var(--cinza-escuro);
+}
+
+/* BOTÕES */
+
+button{
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+}
+
+.btn-primary{
+    background-color: var(--azul-principal);
+    color: var(--branco);
+
+    padding: 12px 24px;
+
+    border-radius: var(--border-radius);
+
+    transition: 0.3s;
+}
+
+.btn-primary:hover{
+    background-color: var(--azul-secundario);
+}
+
+.btn-safe{
+    background-color: var(--verde-seguro);
+    color: var(--branco);
+}
+
+.btn-warning{
+    background-color: var(--amarelo-alerta);
+    color: var(--branco);
+}
+
+.btn-danger{
+    background-color: var(--vermelho-extremo);
+    color: var(--branco);
+}
+
+/* HERO SECTION */
+
+.hero{
+    background: linear-gradient(
+        135deg,
+        var(--azul-principal),
+        var(--azul-secundario)
+    );
+
+    color: var(--branco);
+}
+
+/* CARDS */
+
+.card{
+    background-color: var(--branco);
+
+    padding: var(--spacing-md);
+
+    border-radius: var(--border-radius);
+
+    box-shadow: var(--shadow-card);
+}
+
+/* NÍVEIS DE RISCO */
+
+.risco-baixo{
+    color: var(--verde-seguro);
+}
+
+.risco-moderado{
+    color: var(--amarelo-alerta);
+}
+
+.risco-alto{
+    color: var(--laranja-risco);
+}
+
+.risco-extremo{
+    color: var(--vermelho-extremo);
+}
