@@ -1,0 +1,35 @@
+.monitoramento{
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    padding: var(--spacing-xl);
+}
+
+.monitoramento-intro{
+    margin-bottom: var(--spacing-lg);
+}
+
+.filtro-estado{
+    margin-bottom: var(--spacing-lg);
+}
+
+.select-container{
+    margin-bottom: var(--spacing-lg);
+}
+
+.painel-monitoramento{
+    display: grid;
+
+    grid-template-columns: 1fr 2fr;
+
+    gap: var(--spacing-md);
+}
+
+.indicadores{
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: var(--spacing-md);
+}

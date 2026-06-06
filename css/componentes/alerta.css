@@ -1,0 +1,55 @@
+.historico-alertas{
+    margin-top: var(--spacing-lg);
+}
+
+.alertas-grid{
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+    gap: var(--spacing-md);
+}
+
+.alerta-card{
+    background-color: var(--branco);
+
+    border-left: 8px solid;
+
+    border-radius: var(--border-radius);
+
+    padding: var(--spacing-md);
+
+    box-shadow: var(--shadow-card);
+
+    transition: 0.3s;
+}
+
+.alerta-card:hover{
+    transform: translateY(-3px);
+}
+
+.alerta-topo{
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 12px;
+}
+
+.alerta-topo h3{
+    margin: 0;
+}
+
+.alerta-alto{
+    border-color: var(--laranja-risco);
+}
+
+.alerta-moderado{
+    border-color: var(--amarelo-alerta);
+}
+
+.alerta-extremo{
+    border-color: var(--vermelho-extremo);
+}

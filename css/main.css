@@ -1,4 +1,11 @@
+/* BASE */
 @import url("./base/global.css");
 @import url("./base/tipografia.css");
 @import url("./base/variaveis.css");
 @import url("./base/reset.css");
+
+/* COMPONENTES */
+@import url("./componentes/status.css");
+@import url("./componentes/card.css");
+@import url("./componentes/select.css");
+@import url("./componentes/alerta.css");

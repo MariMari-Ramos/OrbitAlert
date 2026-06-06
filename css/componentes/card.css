@@ -1,0 +1,10 @@
+.card{
+background-color: var(--branco);
+
+border-radius: var(--border-radius);
+
+padding: var(--spacing-md);
+
+box-shadow: var(--shadow-card);
+
+}

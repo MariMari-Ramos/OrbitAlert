@@ -1,0 +1,23 @@
+.status {
+    padding: 10px 16px;
+    border-radius: 8px;
+    color: var(--branco);
+    font-weight: bold;
+    display: inline-block;
+}
+
+.baixo {
+    background-color: var(--verde-seguro);
+}
+
+.moderado {
+    background-color: var(--amarelo-alerta);
+}
+
+.alto {
+    background-color: var(--laranja-risco);
+}
+
+.extremo {
+    background-color: var(--vermelho-extremo);
+}

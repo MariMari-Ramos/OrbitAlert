@@ -6,10 +6,13 @@
     <title>Monitoramento</title>
     <!-- Css e Java Script externos-->
     <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/paginas/monitoramento.css" />
+    <script src="../js/dados/estados.js" defer></script>
+    <script src="../js/paginas/monitoramento.js" defer></script>
   </head>
   <body>
     <main class="monitoramento">
-      ```
+      
       <!-- Título da Página -->
       <section class="monitoramento-intro">
         <h1>Centro de Monitoramento Climático</h1>
@@ -20,8 +23,8 @@
       </section>
 
       <!-- Filtro -->
-      <section class="filtro-estado card">
-        <h2>Selecionar Estado</h2>
+      <section class="select-container card">
+        <h2 for="estado">Selecionar Estado</h2>
 
         <select id="estado">
           <option value="AC">Acre</option>
@@ -55,7 +58,7 @@
       </section>
 
       <!-- Painel Principal -->
-      <section class="painel-monitoramento">
+      <section class="painel-monitoramento card">
         <div class="card info-geral">
           <h2 id="nomeEstado">São Paulo</h2>
 
@@ -70,22 +73,22 @@
         <!-- Indicadores -->
         <div class="indicadores">
           <div class="card indicador">
-            <h3>🌧️ Chuvas</h3>
+            <h3>Chuvas</h3>
             <p id="chuva">Alto</p>
           </div>
 
           <div class="card indicador">
-            <h3>🔥 Queimadas</h3>
+            <h3>Queimadas</h3>
             <p id="queimadas">Baixo</p>
           </div>
 
           <div class="card indicador">
-            <h3>🌵 Seca</h3>
+            <h3>Seca</h3>
             <p id="seca">Moderado</p>
           </div>
 
           <div class="card indicador">
-            <h3>⚠️ Risco Geral</h3>
+            <h3>Risco Geral</h3>
             <p id="risco">Alto</p>
           </div>
         </div>
@@ -93,50 +96,53 @@
 
       <!-- Alertas -->
       <section class="historico-alertas card">
-        <h2>Alertas Recentes</h2>
+        <h2>Alertas Ativos</h2>
 
-        <table>
-          <thead>
-            <tr>
-              <th>Data</th>
-              <th>Estado</th>
-              <th>Evento</th>
-              <th>Nível</th>
-            </tr>
-          </thead>
+        <p class="subtitulo-alertas">
+          Eventos climáticos monitorados pelo OrbitAlert.
+        </p>
 
-          <tbody>
-            <tr>
-              <td>05/06/2026</td>
-              <td>SP</td>
-              <td>Chuvas Intensas</td>
-              <td>Alto</td>
-            </tr>
+        <div class="alertas-grid">
+          <article class="alerta-card alerta-alto">
+            <div class="alerta-topo">
+              <h3>Chuva Intensa</h3>
+            </div>
 
-            <tr>
-              <td>04/06/2026</td>
-              <td>RJ</td>
-              <td>Ventos Fortes</td>
-              <td>Moderado</td>
-            </tr>
+            <p>São Paulo</p>
 
-            <tr>
-              <td>04/06/2026</td>
-              <td>MG</td>
-              <td>Risco de Deslizamento</td>
-              <td>Alto</td>
-            </tr>
+            <small> Acumulado previsto de 85 mm nas próximas 24 horas. </small>
+          </article>
 
-            <tr>
-              <td>03/06/2026</td>
-              <td>RS</td>
-              <td>Enchentes</td>
-              <td>Extremo</td>
-            </tr>
-          </tbody>
-        </table>
+          <article class="alerta-card alerta-extremo">
+            <div class="alerta-topo">
+              <h3>Enchentes</h3>
+            </div>
+
+            <p>Rio Grande do Sul</p>
+
+            <small> Risco elevado em áreas próximas aos rios. </small>
+          </article>
+
+          <article class="alerta-card alerta-alto">
+            <div class="alerta-topo">
+              <h3>Queimadas</h3>
+            </div>
+
+            <p>Amazonas</p>
+
+            <small> 27 focos de calor detectados nas últimas 12 horas. </small>
+          </article>
+          <article class="alerta-card alerta-extremo">
+            <div class="alerta-topo">
+              <h3>Tempestade Severa</h3>
+            </div>
+
+            <p>Paraná</p>
+
+            <small> Possibilidade de descargas elétricas e granizo. </small>
+          </article>
+        </div>
       </section>
-      ```
     </main>
   </body>
 </html>
