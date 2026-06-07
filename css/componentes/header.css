@@ -1,0 +1,106 @@
+.header{
+
+    height: 80px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 32px;
+
+    background-color: var(--azul-principal);
+
+    color: var(--branco);
+
+    box-shadow: var(--shadow-card);
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 1000;
+}
+
+/* Botão Menu Hanburger */
+.menu-btn{
+
+    background: none;
+
+    border: none;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 5px;
+
+    cursor: pointer;
+}
+
+.menu-btn span{
+
+    width: 28px;
+
+    height: 3px;
+
+    background-color: var(--branco);
+
+    border-radius: 2px;
+}
+
+/* Logo */
+.logo{
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+}
+
+.logo h1{
+
+    font-size: 1.4rem;
+
+    color: var(--branco);
+}
+
+.logo-icon{
+
+    font-size: 1.6rem;
+}
+
+.logo-image{
+
+    width: 32px;
+
+    height: 32px;
+}
+
+/* Botão Perfil */
+.perfil-btn{
+
+    width: 42px;
+
+    height: 42px;
+
+    border-radius: 50%;
+
+    
+
+    cursor: pointer;
+}
+
+.config-btn{
+
+    width: 42px;
+
+    height: 42px;
+
+    border-radius: 50%;
+
+
+    cursor: pointer;
+}
