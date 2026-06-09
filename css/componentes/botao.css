@@ -38,7 +38,7 @@
 
     background: transparent;
 
-    border: 2px solid var(--azul=secundario);
+    border: 2px solid var(--branco);
 
-    color: var(--azul-secundario);
+    color: var(--branco);
 }

@@ -1,0 +1,85 @@
+.home{
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 32px;
+
+    padding: 24px;
+    
+}
+
+/* Hero */
+.hero{
+
+    min-height: 400px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+/*Conteudo*/
+.hero-content{
+
+    max-width: 700px;
+
+    text-align: center;
+}
+
+/*Titulo*/
+.hero h2{
+
+    font-size: 3rem;
+
+    margin-bottom: 16px;
+}
+
+/*Texto*/
+.hero p{
+
+    margin-bottom: 24px;
+}
+
+/*Botao*/
+.hero-actions{
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 16px;
+
+    flex-wrap: wrap;
+}
+
+/*Recursos*/
+.features{
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(250px, 1fr)
+        );
+
+    gap: 24px;
+}
+
+/*Card*/
+.features .card{
+
+    text-align: center;
+}
+
+/*Sobre*/
+.sobre{
+
+    display: flex;
+
+    justify-content: center;
+}
