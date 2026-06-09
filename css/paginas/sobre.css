@@ -1,0 +1,75 @@
+.sobre-page{
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 32px;
+
+    padding: 24px;
+}
+
+/*hero*/
+.hero-sobre{
+
+    text-align: center;
+
+    padding: 48px 24px;
+}
+
+/* Grid Principal*/
+.sobre-grid{
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(280px, 1fr)
+        );
+
+    gap: 24px;
+}
+
+/* Tecnologias*/
+.tecnologias{
+
+    text-align: center;
+}
+
+/* Grid de Tecnologias*/
+.tech-grid{
+
+    margin-top: 24px;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(180px, 1fr)
+        );
+
+    gap: 20px;
+}
+
+/*Card de Tecnologia*/
+.tech-item{
+
+    background:
+        rgba(17,147,160,.08);
+
+    border-radius:
+        var(--border-radius);
+
+    padding: 20px;
+
+    transition: .3s;
+}
+
+/*Hover*/
+.tech-item:hover{
+
+    transform:
+        translateY(-4px);
+}
