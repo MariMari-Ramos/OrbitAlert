@@ -68,14 +68,64 @@ export const impactos = {
 
 export const estados = {
 
-    SP: {
-        nome: "São Paulo",
-        populacaoAfetada: "2,3 milhões"
+    AC: {
+        nome: "Acre",
+        populacaoAfetada: "280 mil"
     },
 
-    RJ: {
-        nome: "Rio de Janeiro",
+    AL: {
+        nome: "Alagoas",
+        populacaoAfetada: "650 mil"
+    },
+
+    AP: {
+        nome: "Amapá",
+        populacaoAfetada: "220 mil"
+    },
+
+    AM: {
+        nome: "Amazonas",
+        populacaoAfetada: "600 mil"
+    },
+
+    BA: {
+        nome: "Bahia",
+        populacaoAfetada: "2,1 milhões"
+    },
+
+    CE: {
+        nome: "Ceará",
+        populacaoAfetada: "1,7 milhão"
+    },
+
+    DF: {
+        nome: "Distrito Federal",
+        populacaoAfetada: "500 mil"
+    },
+
+    ES: {
+        nome: "Espírito Santo",
+        populacaoAfetada: "750 mil"
+    },
+
+    GO: {
+        nome: "Goiás",
         populacaoAfetada: "1,2 milhão"
+    },
+
+    MA: {
+        nome: "Maranhão",
+        populacaoAfetada: "1 milhão"
+    },
+
+    MT: {
+        nome: "Mato Grosso",
+        populacaoAfetada: "650 mil"
+    },
+
+    MS: {
+        nome: "Mato Grosso do Sul",
+        populacaoAfetada: "550 mil"
     },
 
     MG: {
@@ -83,9 +133,14 @@ export const estados = {
         populacaoAfetada: "1,5 milhão"
     },
 
-    RS: {
-        nome: "Rio Grande do Sul",
-        populacaoAfetada: "2 milhões"
+    PA: {
+        nome: "Pará",
+        populacaoAfetada: "1,4 milhão"
+    },
+
+    PB: {
+        nome: "Paraíba",
+        populacaoAfetada: "700 mil"
     },
 
     PR: {
@@ -93,9 +148,59 @@ export const estados = {
         populacaoAfetada: "900 mil"
     },
 
-    AM: {
-        nome: "Amazonas",
-        populacaoAfetada: "600 mil"
+    PE: {
+        nome: "Pernambuco",
+        populacaoAfetada: "1,3 milhão"
+    },
+
+    PI: {
+        nome: "Piauí",
+        populacaoAfetada: "500 mil"
+    },
+
+    RJ: {
+        nome: "Rio de Janeiro",
+        populacaoAfetada: "1,2 milhão"
+    },
+
+    RN: {
+        nome: "Rio Grande do Norte",
+        populacaoAfetada: "450 mil"
+    },
+
+    RS: {
+        nome: "Rio Grande do Sul",
+        populacaoAfetada: "2 milhões"
+    },
+
+    RO: {
+        nome: "Rondônia",
+        populacaoAfetada: "350 mil"
+    },
+
+    RR: {
+        nome: "Roraima",
+        populacaoAfetada: "180 mil"
+    },
+
+    SC: {
+        nome: "Santa Catarina",
+        populacaoAfetada: "850 mil"
+    },
+
+    SP: {
+        nome: "São Paulo",
+        populacaoAfetada: "2,3 milhões"
+    },
+
+    SE: {
+        nome: "Sergipe",
+        populacaoAfetada: "320 mil"
+    },
+
+    TO: {
+        nome: "Tocantins",
+        populacaoAfetada: "250 mil"
     }
 
 };
