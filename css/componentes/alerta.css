@@ -11,7 +11,7 @@
 }
 
 .alerta-card{
-    background-color: var(--branco);
+    background-color: var(--background);
 
     border-left: 8px solid;
 

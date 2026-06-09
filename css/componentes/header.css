@@ -1,106 +1,70 @@
-.header{
-
+.header {
     height: 80px;
-
     display: flex;
-
     align-items: center;
-
     justify-content: space-between;
-
     padding: 0 32px;
-
     background-color: var(--azul-principal);
-
     color: var(--branco);
-
     box-shadow: var(--shadow-card);
-
     position: sticky;
-
     top: 0;
-
     z-index: 1000;
 }
 
 /* Botão Menu Hanburger */
-.menu-btn{
-
+.menu-btn {
     background: none;
-
     border: none;
-
     display: flex;
-
     flex-direction: column;
-
     gap: 5px;
-
-    cursor: pointer;
 }
 
-.menu-btn span{
-
+.menu-btn span {
     width: 28px;
-
     height: 3px;
-
     background-color: var(--branco);
-
     border-radius: 2px;
 }
 
 /* Logo */
-.logo{
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 
     display: flex;
-
     align-items: center;
-
-    gap: 12px;
+    gap: var(--spacing-xs);
 }
 
-.logo h1{
-
-    font-size: 1.4rem;
-
+.logo h1 {
+    font-size: 1.5rem;
     color: var(--branco);
 }
 
-.logo-icon{
-
+.logo-icon {
     font-size: 1.6rem;
 }
 
-.logo-image{
-
+.logo-image {
     width: 32px;
-
     height: 32px;
 }
 
-/* Botão Perfil */
-.perfil-btn{
-
-    width: 42px;
-
-    height: 42px;
-
-    border-radius: 50%;
-
-    
-
-    cursor: pointer;
+.logo-link{
+    text-decoration: none;
+    color: inherit;
 }
 
-.config-btn{
-
-    width: 42px;
-
-    height: 42px;
-
+/* Botão Configurações e Perfil */
+.config{
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
-
-
-    cursor: pointer;
 }
+

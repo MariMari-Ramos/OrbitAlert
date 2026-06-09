@@ -1,24 +1,28 @@
-:root{
+:root {
     /* Azul Espacial */
-    --azul-principal: #0B3D91;
-    --azul-secundario: #1E5BB8;
-    --azul-claro: #4F8EF7;
+    --azul-principal: #0b3d91;
+    --azul-secundario: #1e5bb8;
+    --azul-claro: #4f8ef7;
 
     /* Indicadores Climáticos */
-    --verde-seguro: #16A34A;
-    --amarelo-alerta: #F59E0B;
-    --laranja-risco: #F97316;
-    --vermelho-extremo: #DC2626;
+    --verde-seguro: #16a34a;
+    --amarelo-alerta: #f59e0b;
+    --laranja-risco: #f97316;
+    --vermelho-extremo: #dc2626;
 
     /* Neutros */
-    --branco: #FFFFFF;
-    --cinza-claro: #F8FAFC;
+    --branco: #ffffff;
+    --cinza-claro: #f8fafc;
     --cinza: #c2c2c2;
-    --cinza-escuro: #1E293B;
+    --cinza-escuro: #1e293b;
+
+    /* Cor de fundo e letras*/
+    --background: var(--cinza-claro);
+    --text-color: var(--cinza-escuro);
 
     /* Tipografia */
-    --fonte-principal: 'Inter', sans-serif;
-    --fonte-titulo: 'Montserrat', sans-serif;
+    --fonte-principal: "Inter", sans-serif;
+    --fonte-titulo: "Montserrat", sans-serif;
 
     /* Espaçamentos */
     --spacing-xs: 8px;
@@ -31,5 +35,10 @@
     --border-radius: 16px;
 
     /* Sombras */
-    --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.15);
+    --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+[data-theme="dark"] {
+    --background: var(--cinza-escuro);
+    --text-color: var(--cinza-claro);
 }

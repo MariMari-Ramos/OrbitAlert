@@ -11,4 +11,6 @@
 @import url("./componentes/alerta.css");
 @import url("./componentes/header.css");
 @import url("./componentes/sidebar.css");
-@import url("./componentes/footer.css")
+@import url("./componentes/footer.css");
+@import url("./componentes/config.css");
+@import url("./componentes/switch.css");

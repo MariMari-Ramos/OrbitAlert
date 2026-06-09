@@ -26,4 +26,6 @@ img{
 button {
     all: unset;
     cursor: pointer;
+    border: none;
+    background: transparent;
 }

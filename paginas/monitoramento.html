@@ -12,27 +12,42 @@
     <script type="module" src="../js/main.js" defer></script>
   </head>
   <body>
+    <!--Header-->
     <header class="header">
+      <!-- Menu Hamburguer -->
       <button class="menu-btn" id="menuBtn">
         <span></span>
         <span></span>
         <span></span>
       </button>
 
-      <a href="../index.html" class="logo-link">
-      <div class="logo">
-        <img src="../assets/icones/logo.png" alt="Logo OrbitAlert" class="logo-image" />
+      <!-- Logo -->
+      <a href="../index.html" class="logo logo-link">
+        <img
+          src="../assets/icones/logo.png"
+          alt="Logo OrbitAlert"
+          class="logo-image"
+        />
         <h1>OrbitAlert</h1>
-      </div>
       </a>
+      <!-- Botões de Configurações -->
+      <div class="config">
+        <button class="config-btn" id="openconfig">
+          <img src="../assets/icones/configuracoes.png" alt="Configurações" />
+        </button>
 
-      <button class="config-btn">
-        <img src="../assets/icones/configuracoes.png" alt="Configurações">
-      </button>
-
-      <button class="perfil-btn">
-        <img src="../assets/icones/perfil.png" alt="Perfil">
-      </button>
+        <!-- Dropdown -->
+        <div class="config-dropdown" id="configmenu">
+          <h3>Aparência</h3>
+          <div class="theme-setting">
+            <span>Tema Escuro</span>
+            <label class="switch">
+              <input type="checkbox" id="themeToggle" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
     </header>
 
     <aside>
@@ -40,49 +55,52 @@
         <ul>
           <li>
             <a href="../index.html">
-              <img src="../assets/icones/home.png" alt="Home">
+              <img src="../assets/icones/home.png" alt="Home" />
               <span>Home</span>
             </a>
           </li>
 
           <li>
             <a href="../paginas/sobre.html">
-              <img src="../assets/icones/sobre.png" alt="Sobre">
+              <img src="../assets/icones/sobre.png" alt="Sobre" />
               <span>Sobre</span>
             </a>
           </li>
 
           <li>
             <a href="../paginas/monitoramento.html">
-              <img src="../assets/icones/monitoramento.png" alt="Monitoramento">
+              <img
+                src="../assets/icones/monitoramento.png"
+                alt="Monitoramento"
+              />
               <span>Monitoramento</span>
             </a>
           </li>
 
           <li>
             <a href="../paginas/simulador.html">
-              <img src="../assets/icones/simulacao.png" alt="Simulador">
+              <img src="../assets/icones/simulacao.png" alt="Simulador" />
               <span>Simulador</span>
             </a>
           </li>
 
           <li>
             <a href="../paginas/faq.html">
-              <img src="../assets/icones/faq.png" alt="FAQ">
+              <img src="../assets/icones/faq.png" alt="FAQ" />
               <span>FAQ</span>
             </a>
           </li>
 
           <li>
             <a href="../paginas/integrantes.html">
-              <img src="../assets/icones/integrantes.png" alt="Integrantes">
+              <img src="../assets/icones/integrantes.png" alt="Integrantes" />
               <span>Integrantes</span>
             </a>
           </li>
 
           <li>
             <a href="../paginas/contato.html">
-              <img src="../assets/icones/contato.png" alt="Contato">
+              <img src="../assets/icones/contato.png" alt="Contato" />
               <span>Contato</span>
             </a>
           </li>
@@ -223,37 +241,41 @@
       </section>
     </main>
     <!--Rodapé -->
-    <footer class="footer" data-page="footer">
+    <footer class="footer">
       <div class="footer-container">
         <!-- Sobre -->
         <div class="footer-section">
-          <h3  data-i18n="footer.sobreTitulo"></h3>
-          <p data-i18n="footer.sobreTexto"></p>
+          <h3>Sobre</h3>
+          <p>Orbitalert é texto texto</p>
         </div>
 
         <!-- Links -->
         <div class="footer-section">
-          <h3 data-i18n="footer.linksTitulo"></h3>
+          <h3 class="footer-links">Links</h3>
           <ul>
-            <li><a href="index.html" data-i18n="footer.home"></a></li>
-            <li><a href="paginas/sobre.html" data-i18n="footer.sobre"></a></li>
-            <li><a href="paginas/faq.html" data-i18n="footer.faq"></a></li>
-            <li><a href="paginas/contato.html" data-i18n="footer.contato"></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="../paginas/monitoramento.html">Contato</a></li>
+            <li><a href="paginas/simulador.html">Simulador</a></li>
+            <li><a href="paginas/sobre.html">Sobre</a></li>
+            <li><a href="paginas/faq.html">Fac</a></li>
+            <li><a href="paginas/contato.html">Contato</a></li>
+            <li><a href="paginas/integrantes.html">Integrantes</a></li>
           </ul>
         </div>
 
         <!-- Contato -->
         <div class="footer-section">
-          <h3 data-i18n="footer.contatoTitulo"></h3>
-            <p data-i18n="footer.email"></p>
-            <p data-i18n="footer.telefone"></p>
+          <h3>Contato</h3>
+          <p>Email: contato@orbitalert.com</p>
+          <p>Telefone: (11) 99999-9999</p>
         </div>
       </div>
 
       <!-- LINHA FINAL -->
       <div class="footer-bottom">
-        <p data-i18n="footer.direitos"></p>
+        <p>© 2026 - OrbitAlert | Todos os direitos reservados</p>
       </div>
     </footer>
+    </dialog>
   </body>
 </html>
