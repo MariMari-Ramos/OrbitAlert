@@ -1,0 +1,43 @@
+.simulador-page{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+}
+
+/* Formulário */
+.simulador-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+
+/* Range */
+input[type="range"]{
+    width: 100%;
+}
+
+/*Resultados */
+.resultado{
+    min-height: 180px;
+}
+
+/* Nivel de risco */
+.risco-baixo{
+    color: var(--verde-seguro);
+}
+
+.risco-moderado{
+    color: var(--amarelo-alerta);
+}
+
+.risco-alto{
+    color: var(--laranja-risco);
+}
+
+.risco-extremo{
+    color: var(--vermelho-extremo);
+}

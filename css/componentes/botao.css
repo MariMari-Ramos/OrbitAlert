@@ -1,0 +1,44 @@
+.btn{
+
+    padding: 12px 20px;
+
+    border: none;
+
+    border-radius: var(--border-radius);
+
+    background: var(--azul-secundario);
+
+    color: var(--branco);
+
+    font-size: 1rem;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+/* Houver */
+.btn:hover{
+
+    background: var(--azul-claro);
+
+    transform: translateY(-2px);
+}
+
+/* Clique */
+.btn:active{
+
+    transform: translateY(0);
+}
+
+/* Botão secundário */
+.btn-secondary{
+
+    background: transparent;
+
+    border: 2px solid var(--azul=secundario);
+
+    color: var(--azul-secundario);
+}
