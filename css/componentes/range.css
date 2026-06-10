@@ -22,8 +22,8 @@ input[type="range"]::-webkit-slider-runnable-track{
 
     background: linear-gradient(
         to right,
-        var(--azul1),
-        var(--azul2)
+        var(--azul-principal),
+        var(--azul-secundario)
     );
 }
 
