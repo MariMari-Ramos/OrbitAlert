@@ -33,7 +33,7 @@
 }
 
 .switch input:checked + .slider{
-    background-color: var(--azul1);
+    background-color: var(--azul-principal);
 }
 
 .switch input:checked + .slider::before{
