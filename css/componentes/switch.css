@@ -39,3 +39,4 @@
 .switch input:checked + .slider::before{
     transform: translateX(24px);
 }
+/* finalizando switch */
